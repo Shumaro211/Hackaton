@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 1px;
+}
+@font-face
+{
+	font-family: BebasNeue;
+	src: url("BebasNeue-Regular.ttf");
+}
+@font-face
+{
+	font-family: Kollektif;
+	src: url("Kollektif.ttf");
+}
+
+body{
+    margin: 10;
+    padding: 10;
+    background-color: #e8e8e8;
+    font-family: sans-serif;
+}
+
+div#Top{
+margin: auto;
+	width:960;
+	height: 580px;
+	font-family: bebas-neue;
+	background: url(idea1.png); 
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+
+}
+div#Title
+{
+	margin-top: 0px;
+}
+
+div#Library{
+	margin-top: 120px;
+	background: url(button.png);   
+	width:360px;
+	height: 60px;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.Library
+{
+	background-color: #888;
+	cursor: pointer;
+}
+div#Slogan
+{
+	margin-top: 60px; 
+}
+
+div#Menu
+{
+	margin-top: 0px;
+	width:660;
+	height: 60px;
+	background-color:white;
+}
+
+div#ClassmateInfo{
+	margin: auto;
+	width: 960;
+	height: 300px;
+	background-color:red;
+}
+div#Registro
+{
+	width: 1900px;
+	height: 600px;
+	background-color: blue;
+	align-self: center;
+}
+.lista
+{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	margin: auto;
+}
+.lista li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.lista li
+{
+	display: inline-block;
+	text-align: center;
+}
+.lista li a:hover
+{
+	background: #ef8354;
+}
+h1{
+	font-size: 150px;
+	margin-top: 33px;
+	text-align:center;
+	color:white;
+}
+h2{
+	font-size: 40px;
+	margin-top: -16px;
+	
+	text-align:center;
+	color:white;
+}
+h3{
+	font-size: 40px;
+	margin-top: 0px;
+	text-align:center;
+	color:white;
+	font-family: Kollektif;
+}
+h4
+{
+	font-size: 37px;
+	margin-top: 30px;
+	margin-left: 40px;
+	color:white;
+	font-family: BebasNeue;
+}
+h5
+{
+	margin-left: 25px;
+	font-size: 17px;
+	color:white;
+	font-family: sans-serif;
+}
