@@ -5,12 +5,12 @@
 @font-face
 {
 	font-family: BebasNeue;
-	src: url("BebasNeue-Regular.ttf");
+	src: url("../Art/Fonts/BebasNeue-Regular.ttf");
 }
 @font-face
 {
 	font-family: Kollektif;
-	src: url("Kollektif.ttf");
+	src: url("../Art/Fonts/Kollektif.ttf");
 }
 
 body{
@@ -25,7 +25,7 @@ margin: auto;
 	width:960;
 	height: 580px;
 	font-family: bebas-neue;
-	background: url(idea1.png); 
+	background: url(../Art/Images/idea1.png); 
 	background-repeat: no-repeat;
     background-position: center;
     background-size: 1400px;
@@ -38,7 +38,7 @@ div#Title
 
 div#Library{
 	margin-top: 120px;
-	background: url(button.png);   
+	background: url(../Art/Images/button.png);   
 	width:360px;
 	height: 60px;
 	margin: auto;
