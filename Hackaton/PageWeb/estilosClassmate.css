@@ -69,15 +69,38 @@ div#Menu
 div#ClassmateInfo{
 	margin: auto;
 	width: 960;
-	height: 300px;
-	background-color:red;
+	height: 510px;
+	background-color:#182f45;
+}
+div#Information
+{
+	float: left;;
+	width: 600px;
+}
+div#ImageInf
+{
+	float: right;;
+	background-color: #dd1233;
+	width: 645px;
+	height: 510px;
+}
+div#Image
+{
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 345px;
+	height: 310px;
+	background: url(../Art/Images/Confused.png); 
+	background-position: center;
+	background-repeat: no-repeat;
 }
 div#Registro
 {
-	width: 1900px;
+
+	width: 1300px;
 	height: 600px;
-	background-color: blue;
-	align-self: center;
+	background-color: #10232c;
+	
 }
 .lista
 {
@@ -126,7 +149,7 @@ h3{
 h4
 {
 	font-size: 37px;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-left: 40px;
 	color:white;
 	font-family: BebasNeue;
@@ -134,7 +157,7 @@ h4
 h5
 {
 	margin-left: 25px;
-	font-size: 17px;
+	font-size: 19px;
 	color:white;
-	font-family: sans-serif;
+	font-family: Kollektif;
 }
